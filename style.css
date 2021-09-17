@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: #ccc;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    font-family: 'popins',sans-serif;
+}
+.back{ 
+    width: 1370px;
+    height: 1100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    background: black;
+    margin-top: -555px;
+    transform: translateX(-0%);
+    position: absolute;
+    z-index: 1;   
+
+}
+.nav{
+    float:right;   
+}
+.nav ul{
+    text-align: center;
+    margin-right: 200px;
+    
+    
+}
+.nav ul li{
+    display: inline-block;
+    margin-right: 90px;
+    margin-top: 35px;
+   
+    
+   
+}
+.nav ul li a{ 
+      text-decoration: none;
+      color:white;
+      position: absolute;
+      z-index: 1;
+    background: black;
+}
+.nav ul li a:hover{
+    color: dodgerblue;
+    transition: all .5s ease;
+
+}
+.li-3{
+    margin-left: 20px;
+}  
+.li4{
+    margin-left: 20px;
+} 
+.li-1{
+    position: absolute;
+    left: 768px;
+    
+}
+.rit{
+    position: absolute; 
+    z-index: 1;
+    right: -8px;
+    top: 20px;
+}
+.btn{
+    padding: 12px 55px;
+    border: none;
+    outline: none;
+    background:dodgerblue;
+    color:white;
+    transition: all 0.5s ease;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    
+}
+.btn:hover{
+    background:black;
+    color: dodgerblue;
+       
+}
+.pic{
+    position: absolute;
+    z-index: 1;
+      width: 500px;
+     height: 500px;
+     background: transparent;
+     top: 100px; 
+     left: 140px;
+     
+}
+.head{
+    color: dodgerblue;
+    position: absolute;
+    z-index: 1;
+    background: transparent;
+    top: 210px;
+    left: 650px;
+    font-size: 50px;
+    animation: text 3s 1;
+    
+}
+@keyframes text{
+    0%{
+        color: black;
+        margin-right: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-right: -40px;
+    }
+}
+.diff{
+    color: dodgerblue;
+    background: transparent;
+}
+.head1{
+    position: absolute;
+    z-index: 1;
+    background: transparent;
+    color: white;
+    top: 260px;
+    left: 650px;
+    animation: text 6s 1;
+}
+.para{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    
+    background: transparent;
+    top: 310px;
+    left: 650px;
+}
