@@ -201,48 +201,46 @@
   margin-top: 35px;
 }
 
-.contact-form{
+.contact-form {
   background-image: url('Images/Contact\ me.png');
   width: 375px;
   height: 779px;
-  
 }
 
-.contact-form header{
- display: flex;
- justify-content: center;
+.contact-form header {
+  display: flex;
+  justify-content: center;
 }
 
-.text-box{
+.text-box {
   font-family: 'Poppins', sans-serif;
-  color: #FFFFFF;
+  color: #ffff;
   text-align: center;
   margin: 70px 0;
 }
 
-.text-box h2{
+.text-box h2 {
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 10px;
-
 }
 
-.text-box p{
+.text-box p {
   font-weight: 400;
   font-size: 18px;
 }
 
-.contact-form footer{
+.contact-form footer {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
 }
 
-.contact-form footer form{
+.contact-form footer form {
   margin: 10px 20px;
 }
 
-.contact-form footer input{
+.contact-form footer input {
   width: 327px;
   height: 48px;
   margin: 6px 0;
@@ -253,7 +251,7 @@
   border: 1px;
 }
 
-.contact-form footer textarea{
+.contact-form footer textarea {
   width: 327px;
   height: 170px;
   margin-top: 6px;
@@ -265,7 +263,7 @@
   font-size: medium;
 }
 
-.contact-form footer button{
+.contact-form footer button {
   margin-top: 10px;
   padding: 12px;
   background-color: white;
@@ -275,4 +273,5 @@
   font-weight: 500;
   font-size: 17px;
   color: #396df2;
+  cursor: pointer;
 }
