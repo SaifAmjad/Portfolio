@@ -200,3 +200,79 @@
 .skill-list {
   margin-top: 35px;
 }
+
+.contact-form{
+  background-image: url('Images/Contact\ me.png');
+  width: 375px;
+  height: 779px;
+  
+}
+
+.contact-form header{
+ display: flex;
+ justify-content: center;
+}
+
+.text-box{
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 70px 0;
+}
+
+.text-box h2{
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 10px;
+
+}
+
+.text-box p{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.contact-form footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.contact-form footer form{
+  margin: 10px 20px;
+}
+
+.contact-form footer input{
+  width: 327px;
+  height: 48px;
+  margin: 6px 0;
+  text-indent: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  border-radius: 5px;
+  border: 1px;
+}
+
+.contact-form footer textarea{
+  width: 327px;
+  height: 170px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px;
+  text-indent: 20px;
+  line-height: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+}
+
+.contact-form footer button{
+  margin-top: 10px;
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: #396df2;
+}
