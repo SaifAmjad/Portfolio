@@ -200,3 +200,34 @@
 .skill-list {
   margin-top: 35px;
 }
+
+.contact-form{
+  background-image: url('Images/Contact\ me.png');
+  width: 375px;
+  height: 779px;
+  
+}
+
+.contact-form header{
+ display: flex;
+ justify-content: center;
+}
+
+.text-box{
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 70px 0;
+}
+
+.text-box h2{
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 10px;
+
+}
+
+.text-box p{
+  font-weight: 400;
+  font-size: 18px;
+}
