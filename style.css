@@ -73,6 +73,9 @@
   width: 117px;
   height: 24px;
   margin: 170px 20px;
+  animation-name: tag-slide;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
 }
 
 .tag-line h2 {
@@ -86,6 +89,9 @@
   width: 170px;
   height: 20px;
   margin: -160px 15px;
+  animation-name: tag-slide;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
 }
 
 .social-icons img {
@@ -274,4 +280,41 @@
   font-size: 17px;
   color: #396df2;
   cursor: pointer;
+}
+
+.card-img{
+  
+  animation-name: card-slide;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes card-slide{
+  from {
+    transform: translate(-280px);
+  }
+  to {
+    transition: translate(0,0);
+  }
+}
+
+@keyframes tag-slide{
+  from {
+    transform: translate(0,-400px);
+  }
+  to {
+    transition: translate(0,0);
+  }
+}
+
+
+@media only screen and (min-width: 768px){
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+
+
 }
