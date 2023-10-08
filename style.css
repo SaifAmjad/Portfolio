@@ -513,4 +513,32 @@
   .skill-list {
     display: none;
   }
+
+  .about-myself {
+    width: 1440px;
+    height: 724px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .desktop-position-about {
+    margin-left: 140px;
+  }
+
+  .desktop-para-about {
+    width: 450px;
+  }
+
+  .skill-desktop {
+    display: block;
+    list-style-type: none;
+    width: 684px;
+    height: 360px;
+    margin: 0 150px;
+  }
+
+  .skill-list-desktop img {
+    width: 684px;
+    height: 360px;
+  }
 }
