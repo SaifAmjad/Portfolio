@@ -159,6 +159,18 @@
   margin-top: 10px;
 }
 
+.action-btn button {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: #396df2;
+}
+
 .about-myself {
   width: 375px;
   height: 1062px;
@@ -309,6 +321,20 @@
 
 .contact-back-desktop {
   display: none;
+}
+
+.action-btn button:hover {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #396df2;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+  transition: 0.7s;
 }
 
 .resume-btn button:hover {
