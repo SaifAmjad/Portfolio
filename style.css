@@ -311,6 +311,20 @@
   display: none;
 }
 
+.resume-btn button:hover {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #396df2;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
 @keyframes card-slide {
   from {
     transform: translate(-280px);
@@ -368,7 +382,7 @@
     margin: 0 11px;
   }
 
-  .links ul li:hover{
+  .links ul li:hover {
     color: blue;
     cursor: pointer;
     transition: color 0.6s;
