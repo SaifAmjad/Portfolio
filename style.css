@@ -31,6 +31,49 @@
   display: none;
 }
 
+.hamburger-menu {
+  width: 375px;
+  height: 758px;
+  position: fixed;
+  background-color: #6070ff;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.8;
+  display: none;
+}
+
+.cross-bar {
+  height: 34px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hamburger-menu ul {
+  width: 351px;
+  height: 184px;
+  margin-left: 11px;
+  margin-top: 48px;
+  list-style-type: none;
+}
+
+.hamburger-menu ul li {
+  font-size: 32px;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+.hamburger-menu ul li a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+}
+
 .drop-btn {
   align-self: center;
   margin-right: 10px;

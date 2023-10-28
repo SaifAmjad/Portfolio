@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <section>
+    <section id="main">
         <nav class="header">
             <div class="logo">
                 <h2>My Logo</h2>
@@ -21,7 +21,17 @@
                     <li>Contact</li>
                 </ul>
             </div>
-            <div class="drop-btn">
+            <div class="hamburger-menu" id="hamburger-menu">
+                <div class="cross-bar">
+                    <img src="./Images/Icon - Cancel.png" alt="">
+                </div>
+                <ul>
+                    <li><a href="#main">Portfolio</a></li>
+                    <li><a href="#about-myself">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="drop-btn" id="drop-btn">
                 <img src="Social-icons/Icon - Menu.png" alt="">
             </div>
         </nav>
@@ -200,7 +210,7 @@
             </li>
         </ul>
     </section>
-    <section class="about-myself">
+    <section class="about-myself" id="about-myself">
         <ul class="desktop-position-about">
             <li>
                 <h2 class="about-text">About Myself</h2>
@@ -236,7 +246,7 @@
             <li class="skill-list-desktop"><img src="./Images/desktop-skillList.png" alt=""></li>
         </ul>
     </section>
-    <section class="contact-form">
+    <section class="contact-form" id="Contact">
         <div class="contact-back-mobile">
             <img src="Images/contact-shapes-mobile.png" alt="">
         </div>
@@ -261,5 +271,6 @@
             </form>
         </footer>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
