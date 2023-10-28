@@ -18,6 +18,10 @@ Stylelint
 ```
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 ```
+ESLint
+```
+npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+```
 
 ## Running the tests
 
@@ -35,6 +39,12 @@ npx hint .
 npx stylelint "**/*.{css,scss}"
 ```
 
+### For checking JavaScript errors
+
+```
+npx eslint .
+```
+
 ## Built With
 
 * CSS Flexbox
@@ -46,6 +56,8 @@ npx stylelint "**/*.{css,scss}"
 * HTML Semantic tags
 * HTML listing tags ul/li
 * HTML forms with input tags
+* JavaScript DOM manipulation
+* JavaScript EventListners
 
 ## Contributing
 
